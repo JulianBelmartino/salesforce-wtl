@@ -25,7 +25,7 @@ export default async function handler(req, res) {
   formData.append("first_name", first_name || "");
   formData.append("last_name", last_name);
   formData.append("email", email || "");
- 
+  formData.append("company", company);
 
   try {
     const response = await fetch(url, {
