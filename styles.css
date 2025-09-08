@@ -76,6 +76,8 @@ body {
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+    font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .btn:hover,
@@ -91,6 +93,14 @@ section {
 .container {
   max-width: 1100px;
   margin: 0 auto;
+
+}
+
+#formContainer{
+  padding-bottom: 20px;
+}
+input{
+  padding-top:10px;
 }
 
 /* About */
@@ -155,6 +165,7 @@ section {
 }
 #btn{
   align-self: flex-start;
+  color:white;
 }
 
 /* Footer */
